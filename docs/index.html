@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon | FUN TV</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --text-color: #1f2937;
+            --bg-color: #f9fafb;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 600px;
+            padding: 2rem;
+        }
+
+        .logo {
+            font-size: 2rem;
+            font-weight: 800;
+            margin-bottom: 1.5rem;
+            letter-spacing: -1px;
+            color: var(--primary-color);
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            line-height: 1.1;
+        }
+
+        p {
+            font-size: 1.125rem;
+            color: #4b5563;
+            margin-bottom: 2.5rem;
+        }
+
+        /* Simple Newsletter Form */
+        .form-group {
+            display: flex;
+            gap: 0.5rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        input[type="email"] {
+            padding: 0.75rem 1rem;
+            border: 1px solid #d1d5db;
+            border-radius: 8px;
+            width: 100%;
+            max-width: 300px;
+            outline: none;
+        }
+
+        input[type="email"]:focus {
+            border-color: var(--primary-color);
+            ring: 2px solid var(--primary-color);
+        }
+
+        button {
+            padding: 0.75rem 1.5rem;
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+
+        button:hover {
+            opacity: 0.9;
+        }
+
+        .social-links {
+            margin-top: 3rem;
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            color: #9ca3af;
+        }
+
+        @media (max-width: 480px) {
+            h1 { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="logo">FUN TV</div>
+        <h1></h1>
+        <p>
+            Stay tuned while Faith United Network brings you a new version
+            of FUN TV.
+        </p>
+        <p>
+            Contact Us @ paul@faithunitednetwork.tv
+        </p>
+<!--
+        <form class="form-group">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">Notify Me</button>
+        </form>
+
+        <div class="social-links">
+            <span>Twitter</span>
+            <span>Instagram</span>
+            <span>LinkedIn</span>
+        </div> -->
+    </div>
+
+</body>
+</html>
